@@ -94,7 +94,7 @@ export default function Page() {
         />
         <div className='flex flex-col gap-3'>
           <h2 className='font-bold text-4xl'>Our Instagram</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p className='text-center'>Follow us on Instagram.</p>
           <button className='btn rounded-full shadow-2xl btn-wide'>Follow Us</button>
         </div>
       </section>
@@ -107,7 +107,7 @@ function BlogPost({ props, imgUrl }) {
     <>
       <div className='flex flex-col gap-3 items-center'>
         <img className='rounded-md w-full' src={`${imgUrl ? imgUrl : "https://placehold.co/240}"}`} alt="" />
-        <p className='text-center'>Follow our store on Instagram.</p>
+        <p className='text-center'>Going all-in with millennial design.</p>
         <Link className='text-xl font-medium link underline-offset-8' href={"#"}>Read More</Link>
         <div className='py-3 flex gap-3'>
           <span className='flex gap-2 items-center text-sm'><Clock size={14} /><p>5 min</p></span>
