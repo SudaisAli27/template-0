@@ -9,19 +9,19 @@ import React from 'react'
 export default function Page() {
   return (
     <>
-      <section className='p-4 h-[580px] lg:h-screen flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly items-center gap-4 bg-yellow-100' id="hero">
+      <section className='px-4 py-20 h-[580px] lg:h-screen flex flex-col-reverse md:flex-row justify-center lg:justify-evenly items-center gap-4 bg-yellow-100' id="hero">
         <div className='flex flex-col gap-4'>
-          <h2 className='text-4xl font-semibold'>Rocket Single Seater</h2>
+          <h2 className='text-4xl md:text-5xl font-semibold'>Rocket Single Seater</h2>
           <Link className='link underline-offset-8' href={"#"}>Shop Now</Link>
         </div>
         <div className='flex flex-col'>
-          <img className='w-full md:max-w-[480px]' src="/homepage/1.png" alt="image" />
+          <img className='object-contain w-full max-h-[350px] md:max-w-[480px]' src="/homepage/1.png" alt="image" />
         </div>
       </section>
-      <section id="2-prod-feature" className='flex flex-col md:flex-row py-6 gap-3 justify-around'>
+      <section id="2-prod-feature" className='flex flex-col-reverse md:flex-row py-6 gap-3 justify-around'>
         <div className='p-6 flex flex-col gap-3'>
           <img className='mx-auto max-w-[280px] aspect-square object-fill' src="/homepage/1.png" alt="image" />
-          <h4 className='text-2xl font-medium'>Side Table</h4>
+          <h4 className='text-2xl font-medium'>Rocket Single Seater</h4>
           <Link className='link underline-offset-8' href={"#"}>View More</Link>
         </div>
         <div className='p-6 flex flex-col gap-3'>
