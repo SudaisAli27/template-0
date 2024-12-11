@@ -21,6 +21,7 @@ export default function Header() {
             <Link className='btn btn-ghost' href={"/shop"}>Shop</Link>
             <Link className='btn btn-ghost' href={"/about"}>About</Link>
             <Link className='btn btn-ghost' href={"/contact"}>Contact</Link>
+            <Link className='btn btn-ghost' href={"/blog"}>Blog</Link>
           </nav>
           <div className='flex gap-6 justify-center md:justify-end'>
             <Link href={"/account"}><User /></Link>

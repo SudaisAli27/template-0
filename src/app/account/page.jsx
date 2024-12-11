@@ -6,8 +6,8 @@ import React from 'react'
 export default function Page() {
   return (
     <>
-<HeaderBanner pageTitle={"My Account"}/>
-      <section className='px-4 lg:px-40 py-20 flex justify-between gap-40'>
+      <HeaderBanner pageTitle={"My Account"} />
+      <section className='px-4 lg:px-40 py-20 flex flex-col md:flex-row items-center lg:justify-between gap-40'>
         <div className='w-1/2 flex flex-col gap-4'>
           <h2 className='text-4xl font-semibold'>Login</h2>
           <div className='flex flex-col gap-4'>
