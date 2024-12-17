@@ -29,7 +29,7 @@ export default function Footer() {
           <div className='md:col-span-3 lg:col-span-1 flex flex-col items-start h-full'>
             <h4 className='opacity-60 mb-6'>Newsletter</h4>
             <div className='flex flex-col md:flex-row items-center gap-3 md:items-end'>
-              <input type="email" placeholder='Enter your Email Address' className='input border-b border-black underline-offset-8 w-full' />
+              <textarea type="email" placeholder='Enter your Email Address' className='border-b border-black ring-offset-violet-400'></textarea>
               <UnderlinedLink text={"SUBSCRIBE"} link={"#"} style={"text-sm"} />
             </div>
           </div>
